@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+body{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    /* color:#ffffff; */
+    background: #a2d2ff;
+    text-shadow: 0 0 5px white;
+    margin-bottom: 50px;
+}
+
+#goat{
+    width: 350px;
+    border-radius: 50%;
+    border:4px solid pink ;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+h3{
+    background: pink;
+  
+}
+
+
+.gift-img{
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(./birthday\ cover.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#gift-el-02:hover{
+    background-image: url(./gifs02.gif);
+    background-size: cover;
+}
+
+
+#gift-el-04:hover{
+    background-image: url(./gifs04.gif);
+    background-size: cover;
+}
+
+#gift-el-03:hover{
+    background-image: url(./gifs03.gif);
+    background-size: cover;
+}
+}
+
